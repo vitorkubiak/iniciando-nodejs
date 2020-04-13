@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <h1>Busca de livros</h1>
+
+        <form action="/livros" method="get">
+
+            <input type="hidden" id="id" name="id" />
+
+            <div>
+                <label for="titulo">Titulo:</label>
+                <input type="text" id="titulo" name="titulo" placeholder="coloque o titulo" />
+            </div>
+            <table>
+            <tr>
+                <td>ID</td>
+                <td>Títulos</td>
+            </tr>
+            <tr for (livro in data.livro)>
+                <td>${livro.id}</td>
+                <td>${livro.titulo}</td>
+            </tr>
+            </table>
+
+        </form>
+    </body>
+</html>
