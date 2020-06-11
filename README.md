@@ -1,7 +1,7 @@
 # iniciando-nodejs
 Primeiros passos com Node.js
 
-Executar o comando: `$ npm install --production` para baixar as dependências do projeto e `$ npm start` para executar o projeto.
+Executar o comando: `$ npm install` para baixar as dependências do projeto e `$ npm start` para executar o projeto.
 
 http://localhost:3000 para acessar a tela inicial.
 
